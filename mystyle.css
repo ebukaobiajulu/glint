@@ -361,11 +361,8 @@ footer{
   #about {
     background: #39b54a;
     text-align: center;
-    /* height: 100vh; */
   }
-  /* .about-heading {
-    padding-top: 2rem;
-  } */
+  
   p.hello {
     color: black;
     padding-top: 4rem;
@@ -504,6 +501,7 @@ footer{
     padding: 1rem 0 2rem 0;
     margin-inline: auto;
   }
+  
 
   /* Form Section */
   .FormSection {
@@ -762,17 +760,17 @@ footer{
   .FormSection input{
     width: 100%;
   }
-  .contactInfo .FindUs{
-    border: cyan solid 2px; 
-    width: 100%;  
-    
+  
+  .contactInfo{
+    padding: 2rem 0 !important;
   }
   .contactInfo h1{
     font-family: var(--open_sans);
     color: #fff;
     font-size: 1.5rem;
-    margin-bottom: 5rem;
+    margin: 0;
   }
+ 
   .contactInfo h2{
     font-family: var(--open_sans);
     color: var(--green);
