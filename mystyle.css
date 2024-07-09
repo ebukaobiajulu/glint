@@ -828,7 +828,6 @@ footer{
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
     gap: 3rem;
-    /* border: red solid 2px; */
     width: 90%;
     margin-inline: auto;
   }
